@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/calculator/greeting", methods=['GET'])
 def greeting():
-    return jsonify("hello world my name is roshan")
+    return jsonify("hello world my name is ankush")
 
 @app.route("/calculator/add", methods=['POST'])
 def add():
